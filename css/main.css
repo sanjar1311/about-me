@@ -432,9 +432,13 @@ img {
 .nav__link {
   color: #000;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 5px 2px;
   position: relative;
   opacity: .5;
+}
+
+.active.nav__link {
+  opacity: 1;
 }
 
 .nav__link:hover {
@@ -450,7 +454,7 @@ img {
   content: "";
   display: block;
   height: 3px;
-  width: 60%;
+  width: 70%;
   bottom: -5px;
   left: 0;
   background-color: transparent;
@@ -466,13 +470,14 @@ img {
   width: 60%;
   bottom: -5px;
   left: 0;
-  background-color: #777;
+  background-color: tomato;
   -webkit-transition: background-color 0.7s ease;
   transition: background-color 0.7s ease;
+  opacity: 1;
 }
 
 .nav__link:hover::after {
-  background-color: #777;
+  background-color: tomato;
   opacity: .7;
 }
 
