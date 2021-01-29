@@ -1,0 +1,12 @@
+.projects-box__inner {
+  display: flex; 
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.projects-box__title {
+  font-size: 36px;
+  color: #777;
+}
