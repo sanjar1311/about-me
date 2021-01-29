@@ -458,6 +458,19 @@ img {
   transition: background-color 0.7s ease;
 }
 
+.active.nav__link::after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 3px;
+  width: 60%;
+  bottom: -5px;
+  left: 0;
+  background-color: #777;
+  -webkit-transition: background-color 0.7s ease;
+  transition: background-color 0.7s ease;
+}
+
 .nav__link:hover::after {
   background-color: #777;
   opacity: .7;
